@@ -1,0 +1,259 @@
+*{
+    background-color:#121212;
+    font-family: "Open Sans";
+    margin: 0;
+    padding: 0;
+}
+
+.left-float{
+    float: left;
+    font-weight: bold;
+}
+
+.right-float-1{
+    float: right;
+    padding:1rem
+}
+
+.right-float-2{
+  float: right;
+  padding:1rem
+}
+
+.right-float-3{
+  float: right;
+  padding:1rem
+}
+
+.navbar span{
+    color:white;
+    background-color:#a40606;
+    padding: 1rem 1.6rem;
+}
+.navbar{
+    background-color: #a40606;
+    position:  fixed;
+    width: 100%;
+    height: 55px;
+    z-index: 100;
+}
+
+.landing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+}
+
+.left-blob {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.down-arrow {
+    position:absolute;
+    bottom: 2rem;
+}
+
+.right-blob {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.landing h1 {
+    color:white;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.landing-images {
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+}
+
+.about-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .about-section .experience-section {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6rem;
+    color: white;
+    margin: 0 3rem;
+  }
+  
+  .about-section .experience-section .count {
+    font-size: 4rem;
+    color: white;
+  }
+  
+  .about-section .specialisation-section {
+    width:50%;
+  }
+  
+  .about-section .specialisation-section .specialisation-heading {
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+  .specialisation-cards {
+    margin-top: 1rem;
+    display: flex;
+  }
+  
+  .specialisation-card {
+    background-color: #eb4511;
+    color: white;
+    opacity: 0.6;
+    padding: 1rem;
+    margin-right: 1rem;
+    height: 16rem;
+    width: 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    transition: 0.2s ease-in-out all;
+  }
+  
+  .specialisation-card:hover {
+    background-color: #a40606;
+    color:white;
+    opacity: 1;
+  }
+  .specialisation-card .stack-icon {
+    background-color:#eb4511 ;
+    width: 32px;
+    height: 32px;
+  }
+  
+  .stack-icon {
+    transition: 0.2s ease-in-out all;
+    opacity: 0.6;
+  }
+  .specialisation-card:hover .stack-icon {
+    opacity: 1;
+    background-color: #a40606;
+  }
+  
+  .specialisation-card .detail {
+    transition: 0.2s ease-in-out all;
+    background-color:#eb4511 ;
+    font-weight: bold;
+    padding: 0.6rem 0;
+  }
+
+  .specialisation-card:hover .detail {
+    background-color:#a40606 ;
+  }
+
+    .specialisation-card .card-content {
+      transition: 0.2s ease-in-out all;
+      width: 150px;
+      height:150px;
+      background-color: #eb4511 ;
+  }
+
+  .specialisation-card:hover .card-content {
+    background-color:#a40606 ;
+  }
+
+  .specialisation-card .more {
+    transition: 0.2s ease-in-out all;
+    background-color:#eb4511 ;
+  }
+
+  .specialisation-card:hover .more {
+    background-color:#a40606 ;
+  }
+
+  .specialisation-card .stack {
+    transition: 0.2s ease-in-out all;
+    background-color:#eb4511 ;
+  }
+
+  .specialisation-card:hover .stack {
+    background-color:#a40606 ;
+  }
+
+  .instagram {
+    transition: 0.2s ease-in-out all;
+    opacity: 0.6;
+  }
+
+  .instagram:hover {
+    opacity: 1 ;
+  }
+
+  .linkedin {
+    transition: 0.2s ease-in-out all;
+    opacity: 0.6 ;
+  }
+
+  .linkedin:hover {
+    opacity: 1 ;
+  }
+
+  .github {
+    transition: 0.2s ease-in-out all;
+    opacity: 0.6 ;
+  }
+
+  .github:hover {
+    opacity: 1 ;
+  }
+
+  .down-arrow {
+    transition: 0.2s ease-in-out all;
+    opacity: 0.6 ;
+  }
+
+  .down-arrow:hover {
+    opacity: 1 ;
+  }
+
+  .right-float-1 {
+    transition: 0.2s ease-in-out all;
+    opacity: 0.8 ;
+  }
+
+  .right-float-1:hover {
+    opacity: 1 ;
+  }
+
+  .right-float-2 {
+    transition: 0.2s ease-in-out all;
+    opacity: 0.8 ;
+  }
+
+  .right-float-2:hover {
+    opacity: 1 ;
+  }
+
+  .right-float-3 {
+    transition: 0.2s ease-in-out all;
+    opacity: 0.8 ;
+  }
+
+  .right-float-3:hover {
+    opacity: 1 ;
+  }
+
+  .instagram {
+    padding-right: 0.4rem;
+  }
+
+  .linkedin {
+    padding-right: 0.4rem;
+  }
+
+  .github {
+    padding-right: 0.4rem;
+  }

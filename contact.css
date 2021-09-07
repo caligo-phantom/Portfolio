@@ -1,0 +1,100 @@
+*{
+    background-color:#121212;
+    font-family: "Open Sans";
+    margin: 0;
+    padding: 0;
+}
+
+.contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+}
+
+.contact-details span{
+    color: white;
+    font-size: 1rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.left-float{
+    float: left;
+    font-weight: bold;
+}
+
+.right-float-1{
+    float: right;
+    padding:1rem
+}
+
+.right-float-2{
+  float: right;
+  padding:1rem
+}
+
+.right-float-3{
+  float: right;
+  padding:1rem
+}
+
+.navbar span{
+    color:white;
+    background-color:#a40606;
+    padding: 1rem 1.6rem;
+}
+.navbar{
+    background-color: #a40606;
+    position:  fixed;
+    width: 100%;
+    height: 55px;
+    z-index: 100;
+}
+
+.left-blob {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.right-blob {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.contact-details h1 {
+    color:white;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.right-float-1 {
+    transition: 0.2s ease-in-out all;
+    opacity: 0.8 ;
+  }
+
+  .right-float-1:hover {
+    opacity: 1 ;
+  }
+
+  .right-float-2 {
+    transition: 0.2s ease-in-out all;
+    opacity: 0.8 ;
+  }
+
+  .right-float-2:hover {
+    opacity: 1 ;
+  }
+
+  .right-float-3 {
+    transition: 0.2s ease-in-out all;
+    opacity: 0.8 ;
+  }
+
+  .right-float-3:hover {
+    opacity: 1 ;
+  }
