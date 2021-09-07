@@ -1,100 +1,30 @@
-*{
-    background-color:#121212;
-    font-family: "Open Sans";
-    margin: 0;
-    padding: 0;
-}
-
-.contact-details{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    height: 100vh;
-}
-
-.contact-details span{
-    color: white;
-    font-size: 1rem;
-    padding-left: 10rem;
-    padding-right: 10rem;
-}
-
-.left-float{
-    float: left;
-    font-weight: bold;
-}
-
-.right-float-1{
-    float: right;
-    padding:1rem
-}
-
-.right-float-2{
-  float: right;
-  padding:1rem
-}
-
-.right-float-3{
-  float: right;
-  padding:1rem
-}
-
-.navbar span{
-    color:white;
-    background-color:#a40606;
-    padding: 1rem 1.6rem;
-}
-.navbar{
-    background-color: #a40606;
-    position:  fixed;
-    width: 100%;
-    height: 55px;
-    z-index: 100;
-}
-
-.left-blob {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
-.right-blob {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
-.contact-details h1 {
-    color:white;
-    font-size: 4rem;
-    margin-bottom: 1rem;
-}
-
-.right-float-1 {
-    transition: 0.2s ease-in-out all;
-    opacity: 0.8 ;
-  }
-
-  .right-float-1:hover {
-    opacity: 1 ;
-  }
-
-  .right-float-2 {
-    transition: 0.2s ease-in-out all;
-    opacity: 0.8 ;
-  }
-
-  .right-float-2:hover {
-    opacity: 1 ;
-  }
-
-  .right-float-3 {
-    transition: 0.2s ease-in-out all;
-    opacity: 0.8 ;
-  }
-
-  .right-float-3:hover {
-    opacity: 1 ;
-  }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="navbar">
+        <span class="left-float">Contact</span>
+        <a href="about.html"><span class="right-float-1">About</span></a>
+        <a href="works.html"><span class="right-float-2">Works</span></a>
+        <a href="index.html"><span class="right-float-3">Homepage</span></a>
+    </div>
+    <div class="contact-details">
+        <h1>
+            <u>Contacts</u>
+        </h1>
+            <p>E-mail id: siddharthmittal2002@gmail.com</p>
+            <p>Moblile no.: 7011656444</p>
+    </div>
+        <img src="assets/left.svg" alt="left-blob" class="left-blob">
+        <img src="assets/right.svg" alt="right-blob" class="right-blob">
+</body>    
+</html>
