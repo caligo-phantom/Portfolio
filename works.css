@@ -172,3 +172,207 @@
   .right-float-3:hover {
     opacity: 1 ;
   }
+
+    @media(max-width:380px) {
+    html {
+      font-size: 100%;
+    }
+
+    .left-blob {
+      visibility: hidden;
+    }
+
+    .right-blob {
+      visibility: hidden;
+    }
+
+    .landing h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+  }
+
+  .navbar span{
+    color:white;
+    background-color:#a40606;
+    padding: 0.5rem 1.2rem;
+}
+.navbar{
+    background-color: #a40606;
+    position:  fixed;
+    width: 380px;
+    height: 3rem;
+    z-index: 100;
+    margin-right: 0rem;
+}
+.left-float{
+  padding: 1rem 1rem 1rem;
+  margin-top: 0.6rem;
+  font-size: 0.8rem;
+}
+.right-float-1{
+  padding: 1rem 1rem 1rem;
+  margin-top: 0.6rem;
+  font-size: 0.6rem;
+}
+
+.right-float-2{
+  padding: 1rem 1rem 1rem;
+  margin-top: 0.6rem;
+  font-size: 0.6rem;
+}
+
+.right-float-3{
+  padding: 1rem 1rem 1rem;
+  margin-top: 0.6rem;
+  font-size: 0.6rem;
+}
+
+.about-section .experience-section .count {
+  visibility: hidden;
+}
+
+.about-section .experience-section {
+  visibility: hidden;
+}
+
+.about-section .specialisation-section .specialisation-heading {
+  font-size: 0.6rem;
+  margin-top: 6rem;
+  width: 10rem;
+}
+
+.about-section {
+  align-content: flex-start;
+  margin-right: 0.6rem;
+  height: 7rem;
+  width: 5rem;
+  display: flex;
+  flex-direction:row;
+  align-items: stretch;
+  justify-content: flex-end;
+}
+
+.specialisation-card {
+  padding: 0.6rem;
+  margin-right: 0.6rem;
+  margin-bottom: 5rem;
+  height: 7rem;
+  width: 5rem;
+  flex-direction:row;
+}
+
+.specialisation-card .card-content {
+  width: 6rem;
+  height: 6rem;
+}
+
+.specialisation-card .detail {
+  font-size: 0.6rem;
+}
+
+.specialisation-card .more {
+  font-size: 0.4rem;
+}
+  }
+
+  @media(max-width:415px) {
+    html {
+      font-size: 100%;
+    }
+
+    .left-blob {
+      visibility: hidden;
+    }
+
+    .right-blob {
+      visibility: hidden;
+    }
+
+    .landing h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+  }
+
+  .navbar span{
+    color:white;
+    background-color:#a40606;
+    padding: 0.5rem 1.2rem;
+}
+.navbar{
+    background-color: #a40606;
+    position:  fixed;
+    width: 415px;
+    height: 3rem;
+    z-index: 100;
+    margin-right: 0rem;
+}
+.left-float{
+  padding: 1rem 1rem 1rem;
+  margin-top: 0.6rem;
+  font-size: 0.8rem;
+}
+.right-float-1{
+  padding: 1rem 1rem 1rem;
+  margin-top: 0.6rem;
+  font-size: 0.6rem;
+}
+
+.right-float-2{
+  padding: 1rem 1rem 1rem;
+  margin-top: 0.6rem;
+  font-size: 0.6rem;
+}
+
+.right-float-3{
+  padding: 1rem 1rem 1rem;
+  margin-top: 0.6rem;
+  font-size: 0.6rem;
+}
+
+.about-section .experience-section .count {
+  visibility: hidden;
+}
+
+.about-section .experience-section {
+  visibility: hidden;
+}
+
+.about-section .specialisation-section .specialisation-heading {
+  font-size: 0.6rem;
+  margin-top: 6rem;
+  width: 10rem;
+}
+
+.about-section {
+  align-content: flex-start;
+  margin-right: 0.6rem;
+  height: 7rem;
+  width: 5rem;
+  display: flex;
+  flex-direction:row;
+  align-items: stretch;
+  justify-content: flex-end;
+}
+
+.specialisation-card {
+  padding: 0.6rem;
+  margin-right: 0.6rem;
+  margin-bottom: 5rem;
+  height: 7rem;
+  width: 5rem;
+  flex-direction:row;
+}
+
+.specialisation-card .card-content {
+  width: 6rem;
+  height: 6rem;
+}
+
+.specialisation-card .detail {
+  font-size: 0.6rem;
+}
+
+.specialisation-card .more {
+  font-size: 0.4rem;
+}
+  }  
